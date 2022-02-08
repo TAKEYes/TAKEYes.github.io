@@ -1,0 +1,16 @@
+body {
+    background: fixed;
+    background-color: rgb(39, 39, 39);
+}
+header h1 {
+    background-color: rgb(75, 75, 75);
+    font-size: 35px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+    border: 2px black solid;
+    border-radius: 10px;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    margin-left: -157.8px;
+}
