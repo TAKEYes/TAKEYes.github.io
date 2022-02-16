@@ -1,17 +1,21 @@
 body {
     background: fixed;
     background-color: rgb(39, 39, 39);
+    background-image: url(/img/Orbit\ but\ Cycles.png);
+    background-size: 100% 100%;
 }
 header h1 {
-    background-color: rgb(75, 75, 75);
+    background-color: rgba(75, 75, 75, 0);
     font-size: 35px;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     padding: 30px;
-    border: 2px black solid;
+    border: 2px white solid;
     border-radius: 10px;
     text-align: center;
     position: fixed;
     left: 1.5%;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
 }
 .button {
     padding: 30px;
@@ -27,6 +31,7 @@ ul {
     
 li {
     float: right;
+    margin: 10px;
 }
     
 li a {
@@ -42,4 +47,6 @@ li a:hover {
 }
 .home {
     font-size: 30px;
-  }
+    border: white 2px solid;
+    border-radius: 5px;
+}
