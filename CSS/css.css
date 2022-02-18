@@ -50,3 +50,7 @@ li a:hover {
     border: white 2px solid;
     border-radius: 5px;
 }
+.portfolio img {
+    width: 500px;
+    height: 500px;
+}
