@@ -79,7 +79,7 @@ text-align: center;
     overflow: hidden;
 }
 .img-hover-zoom--blur img {
-    transition: transform 1s, filter 1s ease-in-out;
+    transition: transform .5s, filter .5s ease-in-out;
     filter: blur(25px);
     transform: scale(1.2);
 }
@@ -102,4 +102,16 @@ text-align: center;
     padding: 5px;
     font-size: 20px;
     text-align: center;
+}
+h1 {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.right {
+    float: right;
+}
+p {
+    color: white;
+    padding-left: 20px;
 }
