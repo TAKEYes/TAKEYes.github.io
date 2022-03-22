@@ -117,3 +117,24 @@ p {
     padding-left: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
+.module1 {
+    border: 3px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    border-image: linear-gradient(to right, black, red, black);
+    border-image-slice: 1;
+    width: 50%;
+}
+.module2 {
+  max-width: 50%;
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      red, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}
