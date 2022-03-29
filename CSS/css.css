@@ -98,9 +98,16 @@ text-align: center;
 .grid-item {
     background-color: rgba(255, 255, 255, 1);
     border: 2px solid rgba(0, 0, 0, 1);
-    padding: 5px;
     font-size: 20px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+.grid-text {
+    position: absolute;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 h1 {
     font-size: 25px;
