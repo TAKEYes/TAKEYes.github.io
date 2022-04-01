@@ -92,8 +92,9 @@ text-align: center;
     display: inline-grid;
     grid-template-columns: auto auto;
     background-color: transparent;
-    padding: 25px;
+    margin: 25px;
     align-self: center;
+    overflow: hidden;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 1);
@@ -102,12 +103,15 @@ text-align: center;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
+    display: block;
+    overflow: hidden;
 }
 .grid-text {
     position: absolute;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
+    display: inline-grid;
+    overflow: hidden;
 }
 h1 {
     font-size: 25px;
@@ -145,4 +149,7 @@ p {
       rgba(0, 0, 0, 0)
     ) 1 100%;
     border-image-slice: 0 0 0 1;
+}
+img {
+    vertical-align: top !important; 
 }
