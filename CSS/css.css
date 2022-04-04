@@ -60,9 +60,7 @@ li a:hover {
 .home:active {
     background-color: rgb(128, 128, 128);
 }
-.image {
-text-align: center;
-}
+
 .img-hover-zoom {
     height: 300px;
     width: 300px;
@@ -78,6 +76,8 @@ text-align: center;
     height: 300px;
     width: 300px;
     overflow: hidden;
+    z-index: 1;
+    position: relative;
 }
 .img-hover-zoom--blur img {
     transition: transform .5s, filter .5s ease-in-out;
@@ -94,24 +94,22 @@ text-align: center;
     background-color: transparent;
     margin: 25px;
     align-self: center;
-    overflow: hidden;
 }
 .grid-item {
-    background-color: rgba(255, 255, 255, 1);
+    background-color: rgb(0, 0, 0);
     border: 2px solid rgba(0, 0, 0, 1);
     font-size: 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
     display: block;
-    overflow: hidden;
+
 }
 .grid-text {
     position: absolute;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: inline-grid;
-    overflow: hidden;
 }
 h1 {
     font-size: 25px;
@@ -150,6 +148,21 @@ p {
     ) 1 100%;
     border-image-slice: 0 0 0 1;
 }
-img {
-    vertical-align: top !important; 
+h2 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.frontB {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: rgb(255, 0, 0);
 }
